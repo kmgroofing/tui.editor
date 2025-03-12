@@ -1,0 +1,8 @@
+{
+  "name": "Aider Dev",
+  "image": "mcr.microsoft.com/devcontainers/python:3.9",
+  "features": {
+    "ghcr.io/devcontainers/features/python:1": {}
+  },
+  "postCreateCommand": "pip install aider-chat"
+}
